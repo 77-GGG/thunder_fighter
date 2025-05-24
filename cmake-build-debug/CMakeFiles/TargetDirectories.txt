@@ -1,0 +1,3 @@
+/Users/qiguo/thunder-fighter/cmake-build-debug/CMakeFiles/thunder_fighter.dir
+/Users/qiguo/thunder-fighter/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/qiguo/thunder-fighter/cmake-build-debug/CMakeFiles/rebuild_cache.dir
