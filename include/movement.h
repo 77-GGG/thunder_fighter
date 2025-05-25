@@ -5,6 +5,6 @@
 #ifndef MOVEMENT_H
 #define MOVEMENT_H
 
-void movement(int *position_x,int *position_y);
+void plane_movement(int *position_x,int *position_y);
 //传入对象的x,y坐标，使用WASD控制对象移动
 #endif //MOVEMENT_H

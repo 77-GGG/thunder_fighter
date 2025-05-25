@@ -4,7 +4,7 @@
 #include "movement.h"
 #include "raylib.h"
 
-void movement(int *position_x,int *position_y) {
+void plane_movement(int *position_x,int *position_y) {
     if (IsKeyDown(KEY_W)) {
         *position_y -= 10;
     }

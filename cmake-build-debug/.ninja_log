@@ -1,8 +1,18 @@
 # ninja log v6
-6	64	1748082198927919080	CMakeFiles/thunder_fighter.dir/movement.c.o	a64c617f14b364c8
-60	236	1748085349273202368	thunder_fighter	e8df69a7c55ae18d
-2	60	1748085349212967022	CMakeFiles/thunder_fighter.dir/main.c.o	8b4a0b2ade809c30
+2	50	1748174649783648390	CMakeFiles/thunder_fighter.dir/movement.c.o	a64c617f14b364c8
+50	227	1748174649832150971	thunder_fighter	596549a421ae2d38
+2	49	1748174649785678612	CMakeFiles/thunder_fighter.dir/main.c.o	8b4a0b2ade809c30
 2	61	1748085173345629537	CMakeFiles/thunder_fighter.dir/test.c.o	ef7ea619c106356d
-3	59	1748085923346500638	CMakeFiles/thunder_fighter.dir/main.c.o	8b4a0b2ade809c30
 4	61	1748085923348899530	CMakeFiles/thunder_fighter.dir/bullet.c.o	35a3e38ea7c7b000
-61	236	1748085923405131303	thunder_fighter	596549a421ae2d38
+2	56	1748176792779177037	CMakeFiles/thunder_fighter.dir/main.c.o	8b4a0b2ade809c30
+2	90	1748176792782792937	CMakeFiles/thunder_fighter.dir/enemy.c.o	2925609df0376184
+90	257	1748176792868193646	thunder_fighter	ca913c9b3c9256eb
+2	50	1748176870132782533	CMakeFiles/thunder_fighter.dir/main.c.o	8b4a0b2ade809c30
+50	230	1748176870182446956	thunder_fighter	ca913c9b3c9256eb
+2	53	1748176969890034551	CMakeFiles/thunder_fighter.dir/main.c.o	8b4a0b2ade809c30
+3	79	1748176969891470853	CMakeFiles/thunder_fighter.dir/enemy.c.o	2925609df0376184
+79	243	1748176969966859535	thunder_fighter	ca913c9b3c9256eb
+2	47	1748177022661177911	CMakeFiles/thunder_fighter.dir/main.c.o	8b4a0b2ade809c30
+47	223	1748177022706964683	thunder_fighter	ca913c9b3c9256eb
+1	46	1748177034534332432	CMakeFiles/thunder_fighter.dir/main.c.o	8b4a0b2ade809c30
+46	219	1748177034579996077	thunder_fighter	ca913c9b3c9256eb
