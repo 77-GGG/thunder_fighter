@@ -16,7 +16,7 @@ add_executable(thunder_fighter
         main.c
         include/bullet.h
         bullet.c
-        enemy.h
+        include/enemy.h
         enemy.c
 )
 

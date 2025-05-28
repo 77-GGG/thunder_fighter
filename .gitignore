@@ -4,8 +4,6 @@
 *.lo
 *.la
 *.al
-*.libs
-*.a
 *.so
 *.dll
 *.exe
@@ -16,9 +14,7 @@
 *.gcov
 
 # ---- Raylib (可选: 忽略生成的纹理或中间资源) ----
-*.wav
 *.ogg
-*.mp3
 *.tmp
 *.bak
 
@@ -29,6 +25,7 @@ cmake_install.cmake
 Makefile
 build/
 cmake-build-*/
+cmake-build-debug
 
 # ---- macOS 系统文件 ----
 .DS_Store

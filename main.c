@@ -4,7 +4,9 @@
 #include "raylib.h"
 #include "movement.h"
 #include "bullet.h"
-#include "enemy.h"
+#include "include/enemy.h"
+
+
 
 int main(void) {
     const int screen_width = 800;//屏幕宽度
@@ -19,13 +21,16 @@ int main(void) {
     SetTargetFPS(60);
     Texture plane_texture = LoadTexture("../rsc/plane.png");
     Texture enemy_texture = LoadTexture("../rsc/enemy.png");
+    Music background_music = LoadMusicStream("../rsc/background.mp3");
+    PlayMusicStream(background_music);
 
     InitBullets();//初始化炮弹系统
     InitEnemies();//初始化敌机系统
+    InitAudioDevice();
 
     while (!WindowShouldClose()) {
         plane_movement(&plane_position_x, &plane_position_y);//控制战机移动
-
+        UpdateMusicStream(background_music);
         if (IsKeyPressed(KEY_J)) {
             FireBullet(plane_position_x, plane_position_y);  // 发射一颗新炮弹
         }
@@ -45,5 +50,6 @@ int main(void) {
     }
 
     CloseWindow();
+    CloseAudioDevice();
     return 0;
 }
