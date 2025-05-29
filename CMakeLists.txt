@@ -18,6 +18,10 @@ add_executable(thunder_fighter
         bullet.c
         include/enemy.h
         enemy.c
+        include/utils.h
+        utils.c
+        include/collision.h
+        collision.c
 )
 
 target_link_libraries(thunder_fighter libraylib.a)
