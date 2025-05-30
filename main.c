@@ -11,20 +11,21 @@
 
 int main(void) {
     const int screen_width = 800;
-    const int screen_height = 1600;
+    const int screen_height = 1200;
     InitWindow(screen_width, screen_height, "thunder_fighter");
     SetTargetFPS(60);
 
     // 玩家相关
-    Vector2 playerPos = {400, 1400};  // 玩家初始位置
+    Vector2 playerPos = {400, 600};  // 玩家初始位置
     Texture plane = LoadTexture("../rsc/plane.png");
-    int playerHp = 3;
+    int playerHp = 3;//玩家的生命值
 
+    Texture enemy_texture = LoadTexture("../rsc/enemy.png");
     // 初始化模块
     Bullet playerBullets[MAX_BULLETS];
     Bullet enemyBullets[MAX_BULLETS];
     Enemy enemies[MAX_ENEMIES];
-
+    LoadEnemyTexture();
     InitBullets(playerBullets);
     InitBullets(enemyBullets);
     InitEnemies(enemies);
@@ -72,7 +73,7 @@ int main(void) {
 
         EndDrawing();
     }
-
+    UnloadEnemyTexture();
     CloseWindow();
     return 0;
 }

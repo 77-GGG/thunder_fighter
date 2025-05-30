@@ -6,7 +6,7 @@
 #define COLLISION_H
 
 #include "raylib.h"
-#include "bullet.h"  // 如果 Bullet 类型在这里用到了
+#include "bullet.h"
 #include "enemy.h"
 #include "utils.h"
 
